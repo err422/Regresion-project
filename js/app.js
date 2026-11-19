@@ -53,7 +53,6 @@ const $ = id => document.getElementById(id);
 anim = performance.now();
 renderRows();
 fillText();
-scrollAnim();
 
 const logButton = document.querySelector('#s-graph button');
 logButton?.addEventListener('click', () => {
