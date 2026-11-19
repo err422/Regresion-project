@@ -186,7 +186,7 @@
 
     function RDC() {
       const iy = headY - 1.07 * Sc - 6;
-      return { ix: tx + 1.14 * Sc, iy, yv: iy - H * .6, ex: -Sc * 9 };
+      return { ix: tx + 1.14 * Sc, iy, yv: iy - H * .35, ex: -Sc * 9 };
     }
 
     function RD(r) {
